@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Website </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main id="app">
+
+        <section class="hero">
+            <p class="eyebrow">INTERACTIVE WEB EXPERIENCE</p>
+            <h1 id="title">Explore Your Space</h1>
+            <p id="description">
+                Move your mouse, press a key, or interact with the page.
+                The interface will respond to you!
+            </p>
+
+            <button id="exploreBtn">Start Exploring</button>
+        </section>
+
+        <section class="interaction-area">
+
+            <div class="card" id="mouseCard">
+                <h2>Move Around</h2>
+                <p id="mouseText">Move your mouse over this card.</p>
+            </div>
+
+            <div class="card" id="keyboardCard">
+                <h2>Press a Key</h2>
+                <p id="keyText">Press any key on your keyboard.</p>
+            </div>
+
+            <div class="card" id="windowCard">
+                <h2>Resize the Window</h2>
+                <p id="sizeText">Your browser size will appear here.</p>
+            </div>
+
+        </section>
+
+        <section class="status">
+            <p id="statusText">Waiting for interaction...</p>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
